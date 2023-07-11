@@ -39,7 +39,7 @@ double * Genarate_HW()
 	int i;
 	double temp;
 	double * window = (double *) malloc (sizeof(double)*Frame_Size);
-	//////////////////Hamming Window 생성//////////
+	////////////////// Create Hamming Window //////////
 	for(i=0;i<Frame_Size;i++)
 	{
 		temp = 0.54 - 0.46*cos(2*pi*i/Frame_Size);
@@ -109,7 +109,7 @@ int main()
 	frame4 = (double *)malloc(sizeof(double)*(Frame_Size));
 	frame5 = (double *)malloc(sizeof(double)*(Frame_Size));
  
-	//noise 추출
+	//noise extract
 	for(i=0;i<Frame_Size;i++){
 		frame1[i]=Source[i];
 		frame2[i]=Source[i+Frame_Size];
