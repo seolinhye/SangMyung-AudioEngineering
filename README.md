@@ -13,6 +13,7 @@ Algorithm
 
 
 노이즈 유무 MIDI note 비교
+
 ![image](https://github.com/seolinhye/SangMyung-AudioEngineering/assets/74964809/bd76da57-c5c1-444a-a7fe-45ad0cf09e52)
 
 
